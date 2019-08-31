@@ -3,7 +3,7 @@
 ### 求解：求解各个子问题(递归调用子问题的算法)
 ### 合并：合并子问题的解，形成原始问题的解
 分治法的基本思想是将一个规模为N的问题分解为K个规模较小的子问题，这些子问题相互独立且与原问题性质相同。递归地解这些子问题，然后将各子问题的解合并得到原问题的解。大致流程如下图所示：
-<div align=center><img src="https://github.com/Two222/Basic-Algorithm/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8B%E5%88%86%E6%B2%BB%E6%B3%95%E6%80%9D%E6%83%B3/2019-08-28-17-36-39.png" /></div>
+<div align=center><img src="https://github.com/Two222/Basic-Algorithm/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B9%8B%E5%88%86%E6%B2%BB%E6%B3%95%E6%80%9D%E6%83%B3/2019-08-28-17-36-39.png" /></div>
 
 ## 2.分治法所能解决的问题一般具有以下几个特征：
 ### 1) 该问题的规模缩小到一定的程度就可以容易地解决
